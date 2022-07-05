@@ -165,6 +165,10 @@ html {
   margin-right: 1.6rem !important;
 }
 
+strong {
+  font-weight: 500;
+}
+
 /* -------------------------------------------------- */
 /* --------------------- HERO ----------------------- */
 /* -------------------------------------------------- */
@@ -368,4 +372,42 @@ html {
 .step-description {
   font-size: 1.8rem;
   line-height: 1.8;
+}
+
+/* -------------------------------------------------- */
+/* --------------------- MEALS ---------------------- */
+/* -------------------------------------------------- */
+
+.section-meals {
+  padding: 9.6rem 0;
+}
+
+.meal-img {
+  width: 100%;
+}
+
+.meal-title {
+  font-size: 2.4rem;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 3.2rem;
+}
+
+.meal-attributes {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.meal-attribute {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.meal-icon {
+  color: #e67e22;
+  font-size: 2.4rem;
 }
